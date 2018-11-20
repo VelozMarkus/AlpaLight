@@ -1,3 +1,8 @@
+pragma solidity ^0.4.0;
+
+import "ERC20Token.sol";
+import "Owner.sol";
+
 contract AlpaToken is owned, ERC20Token {
 
     uint256 public sellPrice;
